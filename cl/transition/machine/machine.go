@@ -2,9 +2,9 @@
 package machine
 
 import (
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
 )
 
 type Interface interface {

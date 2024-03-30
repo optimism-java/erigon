@@ -10,8 +10,8 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	rlp2 "github.com/ledgerwatch/erigon-lib/rlp"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // Account is the Ethereum consensus representation of accounts.

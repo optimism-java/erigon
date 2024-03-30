@@ -24,12 +24,12 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/common/math"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/params"
 )
 
 // VerifyEip1559Header verifies some header attributes which were changed in EIP-1559,

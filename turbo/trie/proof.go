@@ -7,9 +7,9 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/core/types/accounts"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // Prove constructs a merkle proof for key. The result contains all encoded nodes

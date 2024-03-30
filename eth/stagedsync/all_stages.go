@@ -7,7 +7,7 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/metrics"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
 )
 
 var syncMetrics = map[stages.SyncStage]metrics.Gauge{}

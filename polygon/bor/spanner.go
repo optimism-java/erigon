@@ -9,11 +9,11 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
-	"github.com/ledgerwatch/erigon/polygon/bor/valset"
-	"github.com/ledgerwatch/erigon/polygon/heimdall"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/bor/valset"
+	"github.com/optimism-java/erigon/polygon/heimdall"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 //go:generate mockgen -destination=./spanner_mock.go -package=bor . Spanner

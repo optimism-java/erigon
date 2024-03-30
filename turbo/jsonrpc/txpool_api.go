@@ -11,8 +11,8 @@ import (
 	proto_txpool "github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 // TxPoolAPI the interface for the txpool_ RPC commands

@@ -10,7 +10,7 @@ import (
 	"runtime"
 	"unicode"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
+	"github.com/optimism-java/erigon/cmd/devnet/devnet"
 	"github.com/ledgerwatch/log/v3"
 )
 

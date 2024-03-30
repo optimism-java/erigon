@@ -21,9 +21,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/exp/slices"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/ethdb/cbor"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/ethdb/cbor"
+	"github.com/optimism-java/erigon/ethdb/prune"
 )
 
 const (

@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/optimism-java/erigon/common"
 )
 
 func TestPairingExpected(t *testing.T) {

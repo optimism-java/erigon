@@ -16,17 +16,17 @@ import (
 	"github.com/go-chi/chi/v5"
 	"github.com/ledgerwatch/log/v3"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/optimism-java/erigon"
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/cmd/devnet/accounts"
-	"github.com/ledgerwatch/erigon/cmd/devnet/blocks"
-	"github.com/ledgerwatch/erigon/cmd/devnet/contracts"
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
-	"github.com/ledgerwatch/erigon/polygon/bor/valset"
-	"github.com/ledgerwatch/erigon/polygon/heimdall"
+	"github.com/optimism-java/erigon/accounts/abi/bind"
+	"github.com/optimism-java/erigon/cmd/devnet/accounts"
+	"github.com/optimism-java/erigon/cmd/devnet/blocks"
+	"github.com/optimism-java/erigon/cmd/devnet/contracts"
+	"github.com/optimism-java/erigon/cmd/devnet/devnet"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/bor/valset"
+	"github.com/optimism-java/erigon/polygon/heimdall"
 )
 
 type BridgeEvent string

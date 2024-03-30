@@ -7,10 +7,10 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/merkle_tree"
-	ssz2 "github.com/ledgerwatch/erigon/cl/ssz"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/merkle_tree"
+	ssz2 "github.com/optimism-java/erigon/cl/ssz"
 )
 
 const (

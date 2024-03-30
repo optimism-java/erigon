@@ -2,7 +2,7 @@ package generics
 
 import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 func Empty[T any]() (t T) {

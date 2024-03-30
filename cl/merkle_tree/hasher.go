@@ -4,7 +4,7 @@ import (
 	"sync"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/utils"
 	"github.com/prysmaticlabs/gohashtree"
 )
 

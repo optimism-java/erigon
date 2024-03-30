@@ -8,8 +8,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
-	"github.com/ledgerwatch/erigon/polygon/heimdall"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/heimdall"
 
 	"github.com/ledgerwatch/log/v3"
 
@@ -17,17 +17,17 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/polygon/bor"
-	"github.com/ledgerwatch/erigon/polygon/bor/valset"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/eth/protocols/eth"
+	"github.com/optimism-java/erigon/ethdb/prune"
+	"github.com/optimism-java/erigon/params"
+	"github.com/optimism-java/erigon/polygon/bor"
+	"github.com/optimism-java/erigon/polygon/bor/valset"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/stages/mock"
 )
 
 type test_heimdall struct {

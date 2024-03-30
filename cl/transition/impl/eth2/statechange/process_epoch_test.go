@@ -4,11 +4,11 @@ import (
 	_ "embed"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/abstract"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/utils"
 	"github.com/stretchr/testify/require"
 )
 

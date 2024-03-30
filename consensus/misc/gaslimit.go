@@ -19,7 +19,7 @@ package misc
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/params"
 )
 
 // VerifyGaslimit verifies the header gas limit according increase/decrease

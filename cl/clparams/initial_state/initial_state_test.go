@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/clparams/initial_state"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/clparams/initial_state"
 	"github.com/stretchr/testify/assert"
 )
 

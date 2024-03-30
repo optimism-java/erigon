@@ -9,9 +9,9 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/direct"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/params"
 )
 
 func TestHandshake(t *testing.T) {

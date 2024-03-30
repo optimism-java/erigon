@@ -4,8 +4,8 @@ import (
 	"testing"
 
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/optimism-java/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/optimism-java/erigon/rpc/rpccfg"
 	"github.com/stretchr/testify/require"
 )
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
-	"github.com/ledgerwatch/erigon/eth/tracers/logger"
-	"github.com/ledgerwatch/erigon/turbo/adapter/ethapi"
+	"github.com/optimism-java/erigon/eth/tracers/logger"
+	"github.com/optimism-java/erigon/turbo/adapter/ethapi"
 )
 
 // TraceConfig holds extra parameters to trace functions.

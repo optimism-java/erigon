@@ -10,7 +10,7 @@ import (
 	"github.com/golang/snappy"
 	"github.com/klauspost/compress/zstd"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
 	"github.com/spf13/afero"
 )
 

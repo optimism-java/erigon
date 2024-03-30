@@ -19,9 +19,9 @@ package nodecfg
 import (
 	"github.com/ledgerwatch/erigon-lib/direct"
 
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/nat"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/optimism-java/erigon/p2p"
+	"github.com/optimism-java/erigon/p2p/nat"
+	"github.com/optimism-java/erigon/rpc/rpccfg"
 )
 
 const (

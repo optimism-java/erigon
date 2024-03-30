@@ -30,11 +30,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/tracers/logger"
+	"github.com/optimism-java/erigon/accounts/abi"
+	"github.com/optimism-java/erigon/common/math"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/tracers/logger"
 )
 
 // CallArgs represents the arguments for a call.

@@ -12,11 +12,11 @@ import (
 
 	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/stages/headerdownload"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/protocols/eth"
+	"github.com/optimism-java/erigon/p2p"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/stages/headerdownload"
 )
 
 func (cs *MultiClient) PropagateNewBlockHashes(ctx context.Context, announces []headerdownload.Announce) {

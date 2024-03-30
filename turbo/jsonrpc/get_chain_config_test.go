@@ -2,7 +2,7 @@ package jsonrpc
 
 import (
 	"context"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/optimism-java/erigon/cmd/rpcdaemon/rpcdaemontest"
 	"testing"
 )
 

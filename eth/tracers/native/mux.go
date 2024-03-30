@@ -22,8 +22,8 @@ import (
 	"github.com/holiman/uint256"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/eth/tracers"
+	"github.com/optimism-java/erigon/core/vm"
+	"github.com/optimism-java/erigon/eth/tracers"
 )
 
 func init() {

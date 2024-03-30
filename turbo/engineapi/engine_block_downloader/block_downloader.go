@@ -19,14 +19,14 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/dbutils"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/adapter"
-	"github.com/ledgerwatch/erigon/turbo/execution/eth1/eth1_chain_reader.go"
-	"github.com/ledgerwatch/erigon/turbo/services"
-	"github.com/ledgerwatch/erigon/turbo/stages/bodydownload"
-	"github.com/ledgerwatch/erigon/turbo/stages/headerdownload"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/adapter"
+	"github.com/optimism-java/erigon/turbo/execution/eth1/eth1_chain_reader.go"
+	"github.com/optimism-java/erigon/turbo/services"
+	"github.com/optimism-java/erigon/turbo/stages/bodydownload"
+	"github.com/optimism-java/erigon/turbo/stages/headerdownload"
 )
 
 const (

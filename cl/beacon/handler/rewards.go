@@ -7,12 +7,12 @@ import (
 	"net/http"
 	"sort"
 
-	"github.com/ledgerwatch/erigon/cl/beacon/beaconhttp"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/persistence/beacon_indicies"
-	state_accessors "github.com/ledgerwatch/erigon/cl/persistence/state"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/beacon/beaconhttp"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/persistence/beacon_indicies"
+	state_accessors "github.com/optimism-java/erigon/cl/persistence/state"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 type blockRewardsResponse struct {

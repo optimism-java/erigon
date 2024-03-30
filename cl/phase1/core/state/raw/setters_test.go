@@ -4,9 +4,9 @@ import (
 	"testing"
 
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
 	"github.com/stretchr/testify/assert"
 )
 

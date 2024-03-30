@@ -32,9 +32,9 @@ import (
 	"github.com/goccy/go-json"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 const (

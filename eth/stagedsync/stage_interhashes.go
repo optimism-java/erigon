@@ -21,13 +21,13 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/exp/slices"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/turbo/services"
-	"github.com/ledgerwatch/erigon/turbo/stages/headerdownload"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/optimism-java/erigon/common/math"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types/accounts"
+	"github.com/optimism-java/erigon/turbo/services"
+	"github.com/optimism-java/erigon/turbo/stages/headerdownload"
+	"github.com/optimism-java/erigon/turbo/trie"
 )
 
 type TrieCfg struct {

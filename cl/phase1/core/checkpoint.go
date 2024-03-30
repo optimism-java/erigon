@@ -7,12 +7,12 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/utils"
 	"github.com/ledgerwatch/log/v3"
 )
 

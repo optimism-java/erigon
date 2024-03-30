@@ -1,7 +1,7 @@
 package cltypes
 
 import (
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 type ParticipationFlags byte

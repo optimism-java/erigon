@@ -32,7 +32,7 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/accounts/abi"
+	"github.com/optimism-java/erigon/accounts/abi"
 )
 
 // Lang is a target programming language selector to generate bindings for.

@@ -5,18 +5,18 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/eth/stagedsync"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/optimism-java/erigon/eth/stagedsync"
+	"github.com/optimism-java/erigon/turbo/stages/mock"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/common/u256"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/ethdb/prune"
+	"github.com/optimism-java/erigon/params"
 	"github.com/ledgerwatch/log/v3"
 )
 

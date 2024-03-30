@@ -40,16 +40,16 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/consensus/merge"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/consensus/ethash"
+	"github.com/optimism-java/erigon/consensus/merge"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/eth/ethconfig"
+	"github.com/optimism-java/erigon/params"
+	"github.com/optimism-java/erigon/turbo/trie"
 )
 
 // CommitGenesisBlock writes or updates the genesis block in db.

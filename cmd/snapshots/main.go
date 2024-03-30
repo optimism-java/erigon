@@ -13,16 +13,16 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/disk"
 	"github.com/ledgerwatch/erigon-lib/common/mem"
-	"github.com/ledgerwatch/erigon/cmd/snapshots/cmp"
-	"github.com/ledgerwatch/erigon/cmd/snapshots/copy"
-	"github.com/ledgerwatch/erigon/cmd/snapshots/manifest"
-	"github.com/ledgerwatch/erigon/cmd/snapshots/sync"
-	"github.com/ledgerwatch/erigon/cmd/snapshots/torrents"
-	"github.com/ledgerwatch/erigon/cmd/snapshots/verify"
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/debug"
-	"github.com/ledgerwatch/erigon/turbo/logging"
+	"github.com/optimism-java/erigon/cmd/snapshots/cmp"
+	"github.com/optimism-java/erigon/cmd/snapshots/copy"
+	"github.com/optimism-java/erigon/cmd/snapshots/manifest"
+	"github.com/optimism-java/erigon/cmd/snapshots/sync"
+	"github.com/optimism-java/erigon/cmd/snapshots/torrents"
+	"github.com/optimism-java/erigon/cmd/snapshots/verify"
+	"github.com/optimism-java/erigon/cmd/utils"
+	"github.com/optimism-java/erigon/params"
+	"github.com/optimism-java/erigon/turbo/debug"
+	"github.com/optimism-java/erigon/turbo/logging"
 )
 
 func main() {

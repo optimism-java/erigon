@@ -6,7 +6,7 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/vm"
+	"github.com/optimism-java/erigon/core/vm"
 )
 
 type TouchTracer struct {

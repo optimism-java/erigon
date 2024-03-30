@@ -13,7 +13,7 @@ import (
 	"go.uber.org/mock/gomock"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/optimism-java/erigon/crypto"
 )
 
 func makeCheckpoint(start uint64, len uint) *Checkpoint {

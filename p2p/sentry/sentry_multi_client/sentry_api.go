@@ -10,11 +10,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/gointerfaces"
 	proto_sentry "github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/p2p/sentry"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/stages/bodydownload"
-	"github.com/ledgerwatch/erigon/turbo/stages/headerdownload"
+	"github.com/optimism-java/erigon/eth/protocols/eth"
+	"github.com/optimism-java/erigon/p2p/sentry"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/stages/bodydownload"
+	"github.com/optimism-java/erigon/turbo/stages/headerdownload"
 )
 
 // Methods of sentry called by Core

@@ -4,10 +4,10 @@ import (
 	"fmt"
 
 	"github.com/Giulio2002/bls"
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/fork"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/fork"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
 )
 
 func (I *impl) VerifyTransition(s abstract.BeaconState, currentBlock *cltypes.BeaconBlock) error {

@@ -16,12 +16,12 @@ import (
 	"github.com/stretchr/testify/require"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/state/temporal"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/p2p"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/core/forkid"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/state/temporal"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/p2p"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -33,10 +33,10 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/bitutil"
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/common/bitutil"
+	"github.com/optimism-java/erigon/common/debug"
+	"github.com/optimism-java/erigon/crypto"
 )
 
 const (

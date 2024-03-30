@@ -5,11 +5,11 @@ import (
 	"fmt"
 
 	"github.com/ledgerwatch/erigon-lib/metrics"
-	"github.com/ledgerwatch/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/abstract"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
 )
 
 // ProcessBlock processes a block with the block processor

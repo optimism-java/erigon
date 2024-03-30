@@ -26,9 +26,9 @@ import (
 
 	"github.com/holiman/uint256"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus/misc"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/consensus/misc"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -1,6 +1,6 @@
 package sync
 
-import "github.com/ledgerwatch/erigon/polygon/heimdall"
+import "github.com/optimism-java/erigon/polygon/heimdall"
 
 type SpansCache struct {
 	spans map[uint64]*heimdall.Span

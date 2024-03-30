@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/common"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
 )

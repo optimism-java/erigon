@@ -7,10 +7,10 @@ import (
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/dataflow"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/polygon/bor/finality/whitelist"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/dataflow"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/polygon/bor/finality/whitelist"
 )
 
 func MiningBorHeimdallForward(

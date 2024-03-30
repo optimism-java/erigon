@@ -1,7 +1,7 @@
 package bor
 
 import (
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
 )
 
 const (

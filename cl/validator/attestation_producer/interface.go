@@ -1,8 +1,8 @@
 package attestation_producer
 
 import (
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
 )
 
 type AttestationDataProducer interface {

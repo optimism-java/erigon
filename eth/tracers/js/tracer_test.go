@@ -28,11 +28,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/eth/tracers"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/vm"
+	"github.com/optimism-java/erigon/core/vm/evmtypes"
+	"github.com/optimism-java/erigon/eth/tracers"
+	"github.com/optimism-java/erigon/params"
 )
 
 type account struct{}

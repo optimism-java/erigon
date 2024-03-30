@@ -9,8 +9,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/length"
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/accounts/abi"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 // UnpackLog unpacks log

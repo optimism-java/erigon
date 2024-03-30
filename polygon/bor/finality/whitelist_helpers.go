@@ -6,10 +6,10 @@ import (
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/polygon/heimdall"
+	"github.com/optimism-java/erigon/polygon/heimdall"
 
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/polygon/bor/finality/whitelist"
+	"github.com/optimism-java/erigon/polygon/bor/finality/whitelist"
 )
 
 var (

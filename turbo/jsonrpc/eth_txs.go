@@ -13,10 +13,10 @@ import (
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/txpool"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/types"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	types2 "github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/optimism-java/erigon/core/rawdb"
+	types2 "github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/turbo/rpchelper"
 )
 
 // GetTransactionByHash implements eth_getTransactionByHash. Returns information about a transaction given the transaction's hash.

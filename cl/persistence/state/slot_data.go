@@ -5,10 +5,10 @@ import (
 	"errors"
 	"io"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	ssz2 "github.com/ledgerwatch/erigon/cl/ssz"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
+	ssz2 "github.com/optimism-java/erigon/cl/ssz"
 )
 
 type SlotData struct {

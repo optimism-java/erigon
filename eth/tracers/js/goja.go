@@ -27,13 +27,13 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/core/vm/stack"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/eth/tracers"
-	jsassets "github.com/ledgerwatch/erigon/eth/tracers/js/internal/tracers"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/core/vm"
+	"github.com/optimism-java/erigon/core/vm/evmtypes"
+	"github.com/optimism-java/erigon/core/vm/stack"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/eth/tracers"
+	jsassets "github.com/optimism-java/erigon/eth/tracers/js/internal/tracers"
 )
 
 const (

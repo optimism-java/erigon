@@ -10,8 +10,8 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/length"
 
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/optimism-java/erigon/core/types/accounts"
+	"github.com/optimism-java/erigon/crypto"
 )
 
 func TestTrieDeleteSubtree_ShortNode(t *testing.T) {

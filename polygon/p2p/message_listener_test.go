@@ -18,11 +18,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/direct"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	sentrymulticlient "github.com/ledgerwatch/erigon/p2p/sentry/sentry_multi_client"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/testlog"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/protocols/eth"
+	sentrymulticlient "github.com/optimism-java/erigon/p2p/sentry/sentry_multi_client"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/testlog"
 )
 
 func TestMessageListenerRegisterBlockHeadersObserver(t *testing.T) {

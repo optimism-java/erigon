@@ -25,10 +25,10 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 // ChainHeaderReader defines a small collection of methods needed to access the local

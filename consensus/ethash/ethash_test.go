@@ -24,7 +24,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 func TestRemoteSealer(t *testing.T) {

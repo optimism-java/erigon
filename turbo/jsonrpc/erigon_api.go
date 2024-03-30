@@ -6,14 +6,14 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/eth/filters"
+	"github.com/optimism-java/erigon/eth/filters"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/p2p"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/turbo/rpchelper"
 )
 
 // ErigonAPI Erigon specific routines

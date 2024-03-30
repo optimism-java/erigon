@@ -21,8 +21,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/ledgerwatch/erigon/common/mclock"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/common/mclock"
+	"github.com/optimism-java/erigon/p2p/enode"
 )
 
 // This is the number of consecutive leaf requests that may fail before

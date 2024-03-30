@@ -6,8 +6,8 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/beacon/beaconhttp"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/beacon/beaconhttp"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 type genesisResponse struct {

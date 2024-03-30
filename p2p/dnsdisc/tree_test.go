@@ -22,7 +22,7 @@ import (
 	"testing"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/p2p/enode"
 )
 
 func TestParseRoot(t *testing.T) {

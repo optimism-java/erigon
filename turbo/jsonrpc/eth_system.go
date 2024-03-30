@@ -8,13 +8,13 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/eth/gasprice"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/ethconfig"
+	"github.com/optimism-java/erigon/eth/gasprice"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/turbo/rpchelper"
 )
 
 // BlockNumber implements eth_blockNumber. Returns the block number of most recent block.

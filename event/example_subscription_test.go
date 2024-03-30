@@ -19,7 +19,7 @@ package event_test
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/event"
+	"github.com/optimism-java/erigon/event"
 )
 
 func ExampleNewSubscription() {

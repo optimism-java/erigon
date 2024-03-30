@@ -3,8 +3,8 @@ package sync
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/cl/phase1/execution_client"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/cl/phase1/execution_client"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 type ExecutionClient interface {

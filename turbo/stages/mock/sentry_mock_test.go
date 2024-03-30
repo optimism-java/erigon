@@ -12,14 +12,14 @@ import (
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
 	"github.com/ledgerwatch/erigon-lib/wrap"
 
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/stages"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/optimism-java/erigon/common/u256"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/protocols/eth"
+	"github.com/optimism-java/erigon/params"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/stages"
+	"github.com/optimism-java/erigon/turbo/stages/mock"
 )
 
 func TestEmptyStageSync(t *testing.T) {

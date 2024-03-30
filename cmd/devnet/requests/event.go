@@ -7,10 +7,10 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/optimism-java/erigon"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 func Compare(expected types.Log, actual types.Log) ([]error, bool) {

@@ -2,10 +2,10 @@ package bor
 
 import (
 	"github.com/ledgerwatch/erigon-lib/chain"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/consensus/ethash"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/types"
 	"github.com/ledgerwatch/log/v3"
 )
 

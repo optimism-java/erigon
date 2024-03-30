@@ -4,10 +4,10 @@ import (
 	"bytes"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/persistence/base_encoding"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/persistence/base_encoding"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 )

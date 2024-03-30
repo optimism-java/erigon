@@ -7,9 +7,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stagedsynctest"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/polygon/heimdall"
+	"github.com/optimism-java/erigon/eth/stagedsync/stagedsynctest"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/polygon/heimdall"
 )
 
 func TestMiningBorHeimdallForwardPersistsSpans(t *testing.T) {

@@ -28,15 +28,15 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/kvcfg"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	sentry2 "github.com/ledgerwatch/erigon/p2p/sentry"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/services"
-	"github.com/ledgerwatch/erigon/turbo/stages/bodydownload"
-	"github.com/ledgerwatch/erigon/turbo/stages/headerdownload"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/ethconfig"
+	"github.com/optimism-java/erigon/eth/protocols/eth"
+	sentry2 "github.com/optimism-java/erigon/p2p/sentry"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/services"
+	"github.com/optimism-java/erigon/turbo/stages/bodydownload"
+	"github.com/optimism-java/erigon/turbo/stages/headerdownload"
 )
 
 type (

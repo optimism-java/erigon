@@ -7,7 +7,7 @@ import (
 	"github.com/urfave/cli/v2"
 
 	diaglib "github.com/ledgerwatch/erigon-lib/diagnostics"
-	"github.com/ledgerwatch/erigon/turbo/node"
+	"github.com/optimism-java/erigon/turbo/node"
 )
 
 func Setup(ctx *cli.Context, metricsMux *http.ServeMux, node *node.ErigonNode) {

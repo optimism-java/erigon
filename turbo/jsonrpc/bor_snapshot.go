@@ -10,15 +10,15 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/polygon/bor"
-	"github.com/ledgerwatch/erigon/polygon/bor/finality/whitelist"
-	"github.com/ledgerwatch/erigon/polygon/bor/valset"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/polygon/bor"
+	"github.com/optimism-java/erigon/polygon/bor/finality/whitelist"
+	"github.com/optimism-java/erigon/polygon/bor/valset"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 type Snapshot struct {

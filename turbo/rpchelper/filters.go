@@ -21,9 +21,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"google.golang.org/grpc"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/filters"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/filters"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 type Filters struct {

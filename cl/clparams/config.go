@@ -27,7 +27,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/types/ssz"
 	"gopkg.in/yaml.v2"
 
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 type CaplinConfig struct {

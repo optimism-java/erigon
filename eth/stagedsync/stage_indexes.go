@@ -24,9 +24,9 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/exp/slices"
 
-	"github.com/ledgerwatch/erigon/common/changeset"
-	"github.com/ledgerwatch/erigon/ethdb"
-	"github.com/ledgerwatch/erigon/ethdb/prune"
+	"github.com/optimism-java/erigon/common/changeset"
+	"github.com/optimism-java/erigon/ethdb"
+	"github.com/optimism-java/erigon/ethdb/prune"
 )
 
 type HistoryCfg struct {

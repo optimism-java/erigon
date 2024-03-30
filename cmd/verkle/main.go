@@ -8,7 +8,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/utils"
 
 	"github.com/c2h5oh/datasize"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
@@ -18,10 +18,10 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"go.uber.org/zap/buffer"
 
-	"github.com/ledgerwatch/erigon/cmd/verkle/verkletrie"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/core/types/accounts"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/cmd/verkle/verkletrie"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/core/types/accounts"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
 )
 
 type optionsCfg struct {

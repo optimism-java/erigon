@@ -27,13 +27,13 @@ import (
 
 	"github.com/goccy/go-json"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash/ethashcfg"
+	"github.com/optimism-java/erigon/consensus/ethash/ethashcfg"
 
-	"github.com/ledgerwatch/erigon/turbo/testlog"
+	"github.com/optimism-java/erigon/turbo/testlog"
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 // Tests whether remote HTTP servers are correctly notified of new work.

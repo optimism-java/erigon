@@ -13,18 +13,18 @@ import (
 	"github.com/ledgerwatch/erigon-lib/etl"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/cl/antiquary"
-	"github.com/ledgerwatch/erigon/cl/persistence/beacon_indicies"
-	"github.com/ledgerwatch/erigon/cl/persistence/blob_storage"
-	"github.com/ledgerwatch/erigon/cl/phase1/execution_client"
-	"github.com/ledgerwatch/erigon/cl/phase1/network"
-	"github.com/ledgerwatch/erigon/cl/utils"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/optimism-java/erigon/cl/antiquary"
+	"github.com/optimism-java/erigon/cl/persistence/beacon_indicies"
+	"github.com/optimism-java/erigon/cl/persistence/blob_storage"
+	"github.com/optimism-java/erigon/cl/phase1/execution_client"
+	"github.com/optimism-java/erigon/cl/phase1/network"
+	"github.com/optimism-java/erigon/cl/utils"
+	"github.com/optimism-java/erigon/turbo/snapshotsync/freezeblocks"
 
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes"
 )
 
 type StageHistoryReconstructionCfg struct {

@@ -21,9 +21,9 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/core/forkid"
+	"github.com/optimism-java/erigon/p2p/enr"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // enrEntry is the ENR entry which advertises `eth` protocol on the discovery.

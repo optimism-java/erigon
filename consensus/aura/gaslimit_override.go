@@ -8,10 +8,10 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/chain"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/misc"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/consensus/misc"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 type GasLimitOverride struct {

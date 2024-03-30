@@ -28,11 +28,11 @@ import (
 	"testing"
 
 	"github.com/ledgerwatch/erigon-lib/common/datadir"
-	"github.com/ledgerwatch/erigon/core/state/temporal"
+	"github.com/optimism-java/erigon/core/state/temporal"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/eth/tracers/logger"
+	"github.com/optimism-java/erigon/core/vm"
+	"github.com/optimism-java/erigon/eth/tracers/logger"
 )
 
 func TestState(t *testing.T) {

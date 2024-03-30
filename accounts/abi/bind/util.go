@@ -24,7 +24,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 // WaitMined waits for tx to be mined on the blockchain.

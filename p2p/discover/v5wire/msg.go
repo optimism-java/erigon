@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/ledgerwatch/erigon/common/mclock"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/common/mclock"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/p2p/enr"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // Packet is implemented by all message types.

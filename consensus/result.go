@@ -3,8 +3,8 @@ package consensus
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/common/debug"
+	"github.com/optimism-java/erigon/core/types"
 	"github.com/ledgerwatch/log/v3"
 )
 

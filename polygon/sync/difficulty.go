@@ -5,13 +5,13 @@ import (
 
 	lru "github.com/hashicorp/golang-lru/arc/v2"
 
-	"github.com/ledgerwatch/erigon/eth/stagedsync"
+	"github.com/optimism-java/erigon/eth/stagedsync"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/polygon/bor"
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
-	"github.com/ledgerwatch/erigon/polygon/bor/valset"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/polygon/bor"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/bor/valset"
 )
 
 type DifficultyCalculator interface {

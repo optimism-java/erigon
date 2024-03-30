@@ -23,9 +23,9 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/optimism-java/erigon/core/vm"
+	"github.com/optimism-java/erigon/core/vm/evmtypes"
+	"github.com/optimism-java/erigon/crypto"
 )
 
 // accessList is an accumulator for the set of accounts and storage slots an EVM

@@ -7,7 +7,7 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv/dbutils"
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/optimism-java/erigon/crypto"
 )
 
 const BorTxKeyPrefix string = "matic-bor-receipt-"

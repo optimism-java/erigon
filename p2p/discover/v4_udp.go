@@ -31,11 +31,11 @@ import (
 	lru "github.com/hashicorp/golang-lru/v2"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/discover/v4wire"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/netutil"
+	"github.com/optimism-java/erigon/common/debug"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/p2p/discover/v4wire"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/p2p/netutil"
 )
 
 // Errors

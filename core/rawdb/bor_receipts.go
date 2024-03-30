@@ -11,9 +11,9 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/dbutils"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/ethdb/cbor"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/ethdb/cbor"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 var (

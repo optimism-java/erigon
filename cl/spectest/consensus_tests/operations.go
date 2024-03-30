@@ -2,15 +2,15 @@ package consensus_tests
 
 import (
 	"fmt"
-	"github.com/ledgerwatch/erigon/spectest"
+	"github.com/optimism-java/erigon/spectest"
 	"io/fs"
 	"os"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
 
-	"github.com/ledgerwatch/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/cltypes"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

@@ -10,8 +10,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	common0 "github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
+	common0 "github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/common/math"
 )
 
 var _ = (*genesisSpecMarshaling)(nil)

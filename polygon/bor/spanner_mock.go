@@ -13,9 +13,9 @@ import (
 	reflect "reflect"
 
 	common "github.com/ledgerwatch/erigon-lib/common"
-	consensus "github.com/ledgerwatch/erigon/consensus"
-	valset "github.com/ledgerwatch/erigon/polygon/bor/valset"
-	heimdall "github.com/ledgerwatch/erigon/polygon/heimdall"
+	consensus "github.com/optimism-java/erigon/consensus"
+	valset "github.com/optimism-java/erigon/polygon/bor/valset"
+	heimdall "github.com/optimism-java/erigon/polygon/heimdall"
 	gomock "go.uber.org/mock/gomock"
 )
 

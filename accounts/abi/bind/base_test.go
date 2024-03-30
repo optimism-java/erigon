@@ -26,12 +26,12 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	ethereum "github.com/ledgerwatch/erigon"
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
+	ethereum "github.com/optimism-java/erigon"
+	"github.com/optimism-java/erigon/accounts/abi"
+	"github.com/optimism-java/erigon/accounts/abi/bind"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 type mockCaller struct {

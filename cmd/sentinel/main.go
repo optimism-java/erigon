@@ -18,16 +18,16 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/disk"
 	"github.com/ledgerwatch/erigon-lib/common/mem"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice"
-	"github.com/ledgerwatch/erigon/cl/sentinel"
-	"github.com/ledgerwatch/erigon/cl/sentinel/service"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinelcli"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinelflags"
+	"github.com/optimism-java/erigon/cl/phase1/forkchoice"
+	"github.com/optimism-java/erigon/cl/sentinel"
+	"github.com/optimism-java/erigon/cl/sentinel/service"
+	"github.com/optimism-java/erigon/cmd/sentinel/sentinelcli"
+	"github.com/optimism-java/erigon/cmd/sentinel/sentinelflags"
 
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	sentinelapp "github.com/ledgerwatch/erigon/turbo/app"
+	sentinelapp "github.com/optimism-java/erigon/turbo/app"
 )
 
 func main() {

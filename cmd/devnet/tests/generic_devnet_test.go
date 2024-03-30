@@ -9,12 +9,12 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/accounts"
-	"github.com/ledgerwatch/erigon/cmd/devnet/admin"
-	"github.com/ledgerwatch/erigon/cmd/devnet/contracts/steps"
-	"github.com/ledgerwatch/erigon/cmd/devnet/requests"
-	"github.com/ledgerwatch/erigon/cmd/devnet/services"
-	"github.com/ledgerwatch/erigon/cmd/devnet/transactions"
+	"github.com/optimism-java/erigon/cmd/devnet/accounts"
+	"github.com/optimism-java/erigon/cmd/devnet/admin"
+	"github.com/optimism-java/erigon/cmd/devnet/contracts/steps"
+	"github.com/optimism-java/erigon/cmd/devnet/requests"
+	"github.com/optimism-java/erigon/cmd/devnet/services"
+	"github.com/optimism-java/erigon/cmd/devnet/transactions"
 )
 
 func testDynamicTx(t *testing.T, ctx context.Context) {

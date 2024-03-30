@@ -25,10 +25,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ledgerwatch/erigon/common/debug"
-	"github.com/ledgerwatch/erigon/event"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/common/debug"
+	"github.com/optimism-java/erigon/event"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // Msg defines the structure of a p2p message.

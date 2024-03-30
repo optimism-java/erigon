@@ -9,10 +9,10 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/jsonrpc"
+	"github.com/optimism-java/erigon/common/math"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/turbo/jsonrpc"
 )
 
 type BlockNumber string

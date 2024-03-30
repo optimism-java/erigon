@@ -27,9 +27,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/eth/integrity"
-	"github.com/ledgerwatch/erigon/turbo/trie"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/eth/integrity"
+	"github.com/optimism-java/erigon/turbo/trie"
 )
 
 func TestIHCursor(t *testing.T) {

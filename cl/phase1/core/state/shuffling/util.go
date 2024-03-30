@@ -7,8 +7,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/eth2shuffle"
 
 	"github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 func ComputeShuffledIndex(conf *clparams.BeaconChainConfig, ind, ind_count uint64, seed [32]byte, preInputs [][32]byte, hashFunc utils.HashFunc) (uint64, error) {

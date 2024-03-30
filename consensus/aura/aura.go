@@ -31,13 +31,13 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/clique"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/consensus/clique"
+	"github.com/optimism-java/erigon/consensus/ethash"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 const DEBUG_LOG_FROM = 999_999_999

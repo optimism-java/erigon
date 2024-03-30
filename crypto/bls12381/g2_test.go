@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/common"
+	"github.com/optimism-java/erigon/common"
 )
 
 func (g *G2) one() *PointG2 {

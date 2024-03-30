@@ -10,11 +10,11 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnetutils"
-	"github.com/ledgerwatch/erigon/cmd/devnet/requests"
-	"github.com/ledgerwatch/erigon/cmd/devnet/services"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/cmd/devnet/devnet"
+	"github.com/optimism-java/erigon/cmd/devnet/devnetutils"
+	"github.com/optimism-java/erigon/cmd/devnet/requests"
+	"github.com/optimism-java/erigon/cmd/devnet/services"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 // max number of blocks to look for a transaction in

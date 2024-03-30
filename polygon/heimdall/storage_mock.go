@@ -15,7 +15,7 @@ import (
 
 	common "github.com/ledgerwatch/erigon-lib/common"
 	kv "github.com/ledgerwatch/erigon-lib/kv"
-	rlp "github.com/ledgerwatch/erigon/rlp"
+	rlp "github.com/optimism-java/erigon/rlp"
 	gomock "go.uber.org/mock/gomock"
 )
 

@@ -6,12 +6,12 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind/backends"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/optimism-java/erigon/accounts/abi/bind"
+	"github.com/optimism-java/erigon/accounts/abi/bind/backends"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/turbo/stages/mock"
 )
 
 type TxFn func(_ *core.BlockGen, backend bind.ContractBackend) (types.Transaction, bool)

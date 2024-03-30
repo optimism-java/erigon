@@ -1,8 +1,8 @@
 package statechange
 
 import (
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
 )
 
 // ProcessSyncCommitteeUpdate implements processing for the sync committee update. unfortunately there is no easy way to test it.

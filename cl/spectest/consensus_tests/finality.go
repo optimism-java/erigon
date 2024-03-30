@@ -5,8 +5,8 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/transition/machine"
-	"github.com/ledgerwatch/erigon/spectest"
+	"github.com/optimism-java/erigon/cl/transition/machine"
+	"github.com/optimism-java/erigon/spectest"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

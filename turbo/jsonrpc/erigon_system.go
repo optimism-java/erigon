@@ -7,11 +7,11 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/core/forkid"
-	borfinality "github.com/ledgerwatch/erigon/polygon/bor/finality"
-	"github.com/ledgerwatch/erigon/polygon/bor/finality/whitelist"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/optimism-java/erigon/core/forkid"
+	borfinality "github.com/optimism-java/erigon/polygon/bor/finality"
+	"github.com/optimism-java/erigon/polygon/bor/finality/whitelist"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/turbo/rpchelper"
 )
 
 // Forks is a data type to record a list of forks passed by this node

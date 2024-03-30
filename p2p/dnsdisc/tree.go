@@ -25,10 +25,10 @@ import (
 	"io"
 	"strings"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/p2p/enr"
+	"github.com/optimism-java/erigon/rlp"
 	"golang.org/x/crypto/sha3"
 	"golang.org/x/exp/slices"
 )

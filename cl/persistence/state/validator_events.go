@@ -5,7 +5,7 @@ import (
 	"errors"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
 )
 
 // THIS IS EXPERMIENTAL, IT MAY CHANGE

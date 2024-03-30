@@ -11,9 +11,9 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 	"github.com/ledgerwatch/erigon-lib/wrap"
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/eth/stagedsync"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/eth/stagedsync"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
 )
 
 type forkchoiceOutcome struct {

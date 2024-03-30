@@ -6,8 +6,8 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/direct"
 	"github.com/ledgerwatch/erigon-lib/gointerfaces/sentry"
-	"github.com/ledgerwatch/erigon/eth/protocols/eth"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/eth/protocols/eth"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 var ErrPeerNotFound = errors.New("peer not found")

@@ -7,9 +7,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/cmd/devnet/contracts"
-	"github.com/ledgerwatch/erigon/polygon/heimdall"
+	"github.com/optimism-java/erigon/accounts/abi/bind"
+	"github.com/optimism-java/erigon/cmd/devnet/contracts"
+	"github.com/optimism-java/erigon/polygon/heimdall"
 )
 
 // Maximum allowed event record data size

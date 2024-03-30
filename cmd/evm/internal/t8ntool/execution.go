@@ -25,12 +25,12 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/common/math"
+	"github.com/optimism-java/erigon/consensus/ethash"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/turbo/rpchelper"
 )
 
 type Prestate struct {

@@ -21,8 +21,8 @@ import (
 	"fmt"
 	log2 "log"
 
-	"github.com/ledgerwatch/erigon/node"
-	"github.com/ledgerwatch/erigon/node/nodecfg"
+	"github.com/optimism-java/erigon/node"
+	"github.com/optimism-java/erigon/node/nodecfg"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -13,12 +13,12 @@ import (
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/polygon/bor"
-	"github.com/ledgerwatch/erigon/polygon/heimdall"
-	"github.com/ledgerwatch/erigon/rlp"
-	"github.com/ledgerwatch/erigon/turbo/services"
-	"github.com/ledgerwatch/erigon/turbo/snapshotsync/freezeblocks"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/polygon/bor"
+	"github.com/optimism-java/erigon/polygon/heimdall"
+	"github.com/optimism-java/erigon/rlp"
+	"github.com/optimism-java/erigon/turbo/services"
+	"github.com/optimism-java/erigon/turbo/snapshotsync/freezeblocks"
 )
 
 var (

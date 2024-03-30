@@ -7,11 +7,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain/networkname"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
 
-	"github.com/ledgerwatch/erigon/core/systemcontracts"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/core/systemcontracts"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/params"
 )
 
 func init() {

@@ -6,7 +6,7 @@ import (
 	"os"
 	"path"
 
-	"github.com/ledgerwatch/erigon/crypto"
+	"github.com/optimism-java/erigon/crypto"
 )
 
 type NodeKeyConfig struct {

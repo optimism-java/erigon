@@ -3,7 +3,7 @@ package builder
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 	"github.com/stretchr/testify/assert"
 )
 

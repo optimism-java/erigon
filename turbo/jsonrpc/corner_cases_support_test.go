@@ -7,8 +7,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common"
 	"github.com/stretchr/testify/require"
 
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/optimism-java/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
 )
 

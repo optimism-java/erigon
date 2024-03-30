@@ -23,8 +23,8 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/crypto/cryptopool"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/crypto/cryptopool"
 )
 
 type bytesBacked interface {

@@ -7,19 +7,19 @@ import (
 	"math"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/spectest"
+	"github.com/optimism-java/erigon/spectest"
 
 	"github.com/spf13/afero"
 
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/beacon/beacon_router_configuration"
-	"github.com/ledgerwatch/erigon/cl/beacon/beaconevents"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/persistence/blob_storage"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice"
-	"github.com/ledgerwatch/erigon/cl/phase1/forkchoice/fork_graph"
-	"github.com/ledgerwatch/erigon/cl/pool"
+	"github.com/optimism-java/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/beacon/beacon_router_configuration"
+	"github.com/optimism-java/erigon/cl/beacon/beaconevents"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/persistence/blob_storage"
+	"github.com/optimism-java/erigon/cl/phase1/forkchoice"
+	"github.com/optimism-java/erigon/cl/phase1/forkchoice/fork_graph"
+	"github.com/optimism-java/erigon/cl/pool"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
@@ -27,7 +27,7 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/cltypes"
 )
 
 func (f *ForkChoiceStep) StepType() string {

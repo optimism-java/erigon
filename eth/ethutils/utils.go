@@ -8,8 +8,8 @@ import (
 	"github.com/ledgerwatch/erigon-lib/crypto/kzg"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 var (

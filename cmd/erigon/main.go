@@ -11,12 +11,12 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/erigon-lib/common/dbg"
 	"github.com/ledgerwatch/erigon-lib/metrics"
-	"github.com/ledgerwatch/erigon/diagnostics"
-	"github.com/ledgerwatch/erigon/params"
-	erigonapp "github.com/ledgerwatch/erigon/turbo/app"
-	erigoncli "github.com/ledgerwatch/erigon/turbo/cli"
-	"github.com/ledgerwatch/erigon/turbo/debug"
-	"github.com/ledgerwatch/erigon/turbo/node"
+	"github.com/optimism-java/erigon/diagnostics"
+	"github.com/optimism-java/erigon/params"
+	erigonapp "github.com/optimism-java/erigon/turbo/app"
+	erigoncli "github.com/optimism-java/erigon/turbo/cli"
+	"github.com/optimism-java/erigon/turbo/debug"
+	"github.com/optimism-java/erigon/turbo/node"
 )
 
 func main() {

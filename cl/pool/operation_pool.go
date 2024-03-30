@@ -3,7 +3,7 @@ package pool
 import (
 	"time"
 
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state/lru"
+	"github.com/optimism-java/erigon/cl/phase1/core/state/lru"
 )
 
 const lifeSpan = 30 * time.Minute

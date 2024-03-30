@@ -19,7 +19,7 @@ package core
 import (
 	"errors"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 var (

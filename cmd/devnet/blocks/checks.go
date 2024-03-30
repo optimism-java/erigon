@@ -4,9 +4,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
-	"github.com/ledgerwatch/erigon/cmd/devnet/requests"
-	"github.com/ledgerwatch/erigon/turbo/jsonrpc"
+	"github.com/optimism-java/erigon/cmd/devnet/devnet"
+	"github.com/optimism-java/erigon/cmd/devnet/requests"
+	"github.com/optimism-java/erigon/turbo/jsonrpc"
 )
 
 var CompletionChecker = BlockHandlerFunc(

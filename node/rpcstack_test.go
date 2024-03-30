@@ -28,9 +28,9 @@ import (
 	"testing"
 
 	"github.com/gorilla/websocket"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
-	"github.com/ledgerwatch/erigon/turbo/testlog"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/rpc/rpccfg"
+	"github.com/optimism-java/erigon/turbo/testlog"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/stretchr/testify/assert"

@@ -12,9 +12,9 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/erigon-lib/common/dir"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/cmd/utils/flags"
-	"github.com/ledgerwatch/erigon/turbo/debug"
+	"github.com/optimism-java/erigon/cmd/utils"
+	"github.com/optimism-java/erigon/cmd/utils/flags"
+	"github.com/optimism-java/erigon/turbo/debug"
 	"github.com/urfave/cli/v2"
 )
 

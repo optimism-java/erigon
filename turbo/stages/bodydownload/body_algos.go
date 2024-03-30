@@ -14,12 +14,12 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/length"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/dataflow"
-	"github.com/ledgerwatch/erigon/eth/stagedsync/stages"
-	"github.com/ledgerwatch/erigon/turbo/adapter"
-	"github.com/ledgerwatch/erigon/turbo/services"
+	"github.com/optimism-java/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/dataflow"
+	"github.com/optimism-java/erigon/eth/stagedsync/stages"
+	"github.com/optimism-java/erigon/turbo/adapter"
+	"github.com/optimism-java/erigon/turbo/services"
 )
 
 // UpdateFromDb reads the state of the database and refreshes the state of the body download

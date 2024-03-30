@@ -35,7 +35,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 	"github.com/ledgerwatch/erigon-lib/kv/mdbx"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // Keys in the node database.

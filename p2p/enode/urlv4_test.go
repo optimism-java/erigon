@@ -24,8 +24,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enr"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/p2p/enr"
 )
 
 func init() {

@@ -41,10 +41,10 @@ import (
 	libtypes "github.com/ledgerwatch/erigon-lib/types"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/common/u256"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // The values in those tests are from the Transaction Tests

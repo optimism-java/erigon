@@ -24,10 +24,10 @@ import (
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/common/u256"
+	"github.com/optimism-java/erigon/core/vm/evmtypes"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/params"
 )
 
 // emptyCodeHash is used by create to ensure deployment is disallowed to already

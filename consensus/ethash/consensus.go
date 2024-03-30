@@ -28,18 +28,18 @@ import (
 	"github.com/holiman/uint256"
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash/ethashcfg"
+	"github.com/optimism-java/erigon/consensus/ethash/ethashcfg"
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/crypto/sha3"
 
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/consensus/misc"
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/common/math"
+	"github.com/optimism-java/erigon/common/u256"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/consensus/misc"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/params"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // Ethash proof-of-work protocol constants.

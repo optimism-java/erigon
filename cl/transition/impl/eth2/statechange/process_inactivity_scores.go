@@ -1,9 +1,9 @@
 package statechange
 
 import (
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 // ProcessInactivityScores will updates the inactivity registry of each validator.

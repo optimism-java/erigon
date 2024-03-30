@@ -13,7 +13,7 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
 
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 type netApiStub struct {

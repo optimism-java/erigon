@@ -8,12 +8,12 @@ import (
 	"github.com/c2h5oh/datasize"
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/consensus/ethash/ethashcfg"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/eth/gasprice/gaspricecfg"
+	"github.com/optimism-java/erigon/consensus/ethash/ethashcfg"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/eth/gasprice/gaspricecfg"
 
-	"github.com/ledgerwatch/erigon/ethdb/prune"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/ethdb/prune"
+	"github.com/optimism-java/erigon/params"
 )
 
 // MarshalTOML marshals as TOML.

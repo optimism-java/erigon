@@ -9,9 +9,9 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/common/math"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/common/math"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 var _ = (*stEnvMarshaling)(nil)

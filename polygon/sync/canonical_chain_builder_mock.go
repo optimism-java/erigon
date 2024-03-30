@@ -13,7 +13,7 @@ import (
 	reflect "reflect"
 
 	common "github.com/ledgerwatch/erigon-lib/common"
-	types "github.com/ledgerwatch/erigon/core/types"
+	types "github.com/optimism-java/erigon/core/types"
 	gomock "go.uber.org/mock/gomock"
 )
 

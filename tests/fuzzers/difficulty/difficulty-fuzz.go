@@ -25,8 +25,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/consensus/ethash"
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/consensus/ethash"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 type fuzzer struct {

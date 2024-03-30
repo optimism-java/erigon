@@ -23,8 +23,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	ethereum "github.com/ledgerwatch/erigon"
-	"github.com/ledgerwatch/erigon/core/types"
+	ethereum "github.com/optimism-java/erigon"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 var (

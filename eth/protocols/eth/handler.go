@@ -23,7 +23,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/core/rawdb"
+	"github.com/optimism-java/erigon/core/rawdb"
 )
 
 const (

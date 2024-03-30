@@ -4,9 +4,9 @@ import (
 	"time"
 
 	"github.com/ledgerwatch/erigon-lib/chain"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/polygon/bor"
-	"github.com/ledgerwatch/erigon/polygon/bor/borcfg"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/polygon/bor"
+	"github.com/optimism-java/erigon/polygon/bor/borcfg"
 )
 
 type HeaderValidator interface {

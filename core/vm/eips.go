@@ -24,8 +24,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/consensus/misc"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/consensus/misc"
+	"github.com/optimism-java/erigon/params"
 )
 
 var activators = map[int]func(*JumpTable){

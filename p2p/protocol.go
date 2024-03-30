@@ -19,8 +19,8 @@ package p2p
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/p2p/enr"
 )
 
 // Protocol represents a P2P subprotocol implementation.

@@ -18,23 +18,23 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/common/disk"
 	"github.com/ledgerwatch/erigon-lib/common/mem"
-	"github.com/ledgerwatch/erigon/cl/beacon/beacon_router_configuration"
-	"github.com/ledgerwatch/erigon/cl/persistence/db_config"
-	"github.com/ledgerwatch/erigon/cl/phase1/core"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	execution_client2 "github.com/ledgerwatch/erigon/cl/phase1/execution_client"
-	"github.com/ledgerwatch/erigon/eth/ethconfig"
+	"github.com/optimism-java/erigon/cl/beacon/beacon_router_configuration"
+	"github.com/optimism-java/erigon/cl/persistence/db_config"
+	"github.com/optimism-java/erigon/cl/phase1/core"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
+	execution_client2 "github.com/optimism-java/erigon/cl/phase1/execution_client"
+	"github.com/optimism-java/erigon/eth/ethconfig"
 
 	"github.com/ledgerwatch/log/v3"
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/cmd/caplin/caplin1"
-	"github.com/ledgerwatch/erigon/cmd/caplin/caplincli"
-	"github.com/ledgerwatch/erigon/cmd/caplin/caplinflags"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinelflags"
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/turbo/app"
-	"github.com/ledgerwatch/erigon/turbo/debug"
+	"github.com/optimism-java/erigon/cmd/caplin/caplin1"
+	"github.com/optimism-java/erigon/cmd/caplin/caplincli"
+	"github.com/optimism-java/erigon/cmd/caplin/caplinflags"
+	"github.com/optimism-java/erigon/cmd/sentinel/sentinelflags"
+	"github.com/optimism-java/erigon/cmd/utils"
+	"github.com/optimism-java/erigon/turbo/app"
+	"github.com/optimism-java/erigon/turbo/debug"
 )
 
 func main() {

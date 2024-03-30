@@ -26,8 +26,8 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/length"
 
-	ethereum "github.com/ledgerwatch/erigon"
-	"github.com/ledgerwatch/erigon/rpc"
+	ethereum "github.com/optimism-java/erigon"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 // FilterCriteria represents a request to create a new filter.

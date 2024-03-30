@@ -4,9 +4,9 @@ import (
 	"fmt"
 
 	"github.com/ledgerwatch/erigon-lib/common/math"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes/solid"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes/solid"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 func (b *CachingBeaconState) getSlashingProposerReward(whistleBlowerReward uint64) uint64 {

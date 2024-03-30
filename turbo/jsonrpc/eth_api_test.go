@@ -12,13 +12,13 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/ledgerwatch/erigon-lib/kv/kvcache"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
-	"github.com/ledgerwatch/erigon/turbo/adapter/ethapi"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/rpc/rpccfg"
+	"github.com/optimism-java/erigon/turbo/adapter/ethapi"
+	"github.com/optimism-java/erigon/turbo/stages/mock"
 
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/optimism-java/erigon/cmd/rpcdaemon/rpcdaemontest"
 	"github.com/ledgerwatch/log/v3"
 )
 

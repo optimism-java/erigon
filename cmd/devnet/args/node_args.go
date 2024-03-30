@@ -10,12 +10,12 @@ import (
 	"strconv"
 
 	"github.com/ledgerwatch/erigon-lib/chain/networkname"
-	"github.com/ledgerwatch/erigon/cmd/devnet/accounts"
-	"github.com/ledgerwatch/erigon/cmd/devnet/requests"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/cmd/devnet/accounts"
+	"github.com/optimism-java/erigon/cmd/devnet/requests"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/params"
 )
 
 type NodeArgs struct {

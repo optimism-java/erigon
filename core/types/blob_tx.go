@@ -14,7 +14,7 @@ import (
 	rlp2 "github.com/ledgerwatch/erigon-lib/rlp"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 type BlobTx struct {

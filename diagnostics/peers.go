@@ -5,7 +5,7 @@ import (
 	"net/http"
 
 	diaglib "github.com/ledgerwatch/erigon-lib/diagnostics"
-	"github.com/ledgerwatch/erigon/turbo/node"
+	"github.com/optimism-java/erigon/turbo/node"
 	"github.com/urfave/cli/v2"
 )
 

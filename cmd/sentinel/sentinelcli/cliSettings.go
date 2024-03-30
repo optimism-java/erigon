@@ -3,15 +3,15 @@ package sentinelcli
 import (
 	"fmt"
 
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cmd/sentinel/sentinelflags"
-	"github.com/ledgerwatch/erigon/cmd/utils"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cmd/sentinel/sentinelflags"
+	"github.com/optimism-java/erigon/cmd/utils"
 
 	"github.com/ledgerwatch/erigon-lib/common"
 
 	"github.com/urfave/cli/v2"
 
-	"github.com/ledgerwatch/erigon/turbo/logging"
+	"github.com/optimism-java/erigon/turbo/logging"
 
 	"github.com/ledgerwatch/log/v3"
 )

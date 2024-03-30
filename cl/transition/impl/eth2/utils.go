@@ -5,8 +5,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/utils"
 )
 
 func computeSigningRootEpoch(epoch uint64, domain []byte) (libcommon.Hash, error) {

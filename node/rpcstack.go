@@ -28,8 +28,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/rpc/rpccfg"
 	"github.com/ledgerwatch/log/v3"
 	"github.com/rs/cors"
 )

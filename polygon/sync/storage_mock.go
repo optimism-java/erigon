@@ -13,7 +13,7 @@ import (
 	context "context"
 	reflect "reflect"
 
-	types "github.com/ledgerwatch/erigon/core/types"
+	types "github.com/optimism-java/erigon/core/types"
 	gomock "go.uber.org/mock/gomock"
 )
 

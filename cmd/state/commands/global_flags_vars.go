@@ -5,8 +5,8 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/kv"
 
-	"github.com/ledgerwatch/erigon/cmd/utils"
-	"github.com/ledgerwatch/erigon/common/paths"
+	"github.com/optimism-java/erigon/cmd/utils"
+	"github.com/optimism-java/erigon/common/paths"
 )
 
 var (

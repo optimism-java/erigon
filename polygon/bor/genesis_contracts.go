@@ -8,9 +8,9 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/chain"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/accounts/abi"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 const (

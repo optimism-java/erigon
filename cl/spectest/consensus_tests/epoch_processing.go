@@ -5,12 +5,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/spectest"
+	"github.com/optimism-java/erigon/spectest"
 
-	"github.com/ledgerwatch/erigon/cl/abstract"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
-	"github.com/ledgerwatch/erigon/cl/transition/impl/eth2/statechange"
+	"github.com/optimism-java/erigon/cl/abstract"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/transition/impl/eth2/statechange"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

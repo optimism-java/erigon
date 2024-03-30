@@ -30,11 +30,11 @@ import (
 	"github.com/ledgerwatch/erigon-lib/common/datadir"
 	"github.com/ledgerwatch/erigon-lib/kv/memdb"
 
-	"github.com/ledgerwatch/erigon/core/state"
-	"github.com/ledgerwatch/erigon/core/state/temporal"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/turbo/rpchelper"
+	"github.com/optimism-java/erigon/core/state"
+	"github.com/optimism-java/erigon/core/state/temporal"
+	"github.com/optimism-java/erigon/core/vm/evmtypes"
+	"github.com/optimism-java/erigon/params"
+	"github.com/optimism-java/erigon/turbo/rpchelper"
 )
 
 func TestMemoryGasCost(t *testing.T) {

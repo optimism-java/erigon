@@ -11,13 +11,13 @@ import (
 	"github.com/ledgerwatch/log/v3"
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ledgerwatch/erigon/cmd/observer/database"
-	"github.com/ledgerwatch/erigon/cmd/observer/observer/node_utils"
-	"github.com/ledgerwatch/erigon/cmd/observer/observer/sentry_candidates"
-	"github.com/ledgerwatch/erigon/cmd/observer/utils"
-	"github.com/ledgerwatch/erigon/core/forkid"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/params"
+	"github.com/optimism-java/erigon/cmd/observer/database"
+	"github.com/optimism-java/erigon/cmd/observer/observer/node_utils"
+	"github.com/optimism-java/erigon/cmd/observer/observer/sentry_candidates"
+	"github.com/optimism-java/erigon/cmd/observer/utils"
+	"github.com/optimism-java/erigon/core/forkid"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/params"
 )
 
 type Crawler struct {

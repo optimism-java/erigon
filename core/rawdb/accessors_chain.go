@@ -38,9 +38,9 @@ import (
 	"github.com/ledgerwatch/erigon-lib/kv/rawdbv3"
 	"github.com/ledgerwatch/log/v3"
 
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/ethdb/cbor"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/ethdb/cbor"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // ReadCanonicalHash retrieves the hash assigned to a canonical block number.

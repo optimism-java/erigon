@@ -5,8 +5,8 @@ import (
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 func FullNode1() {

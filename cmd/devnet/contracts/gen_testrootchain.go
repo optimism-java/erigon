@@ -9,12 +9,12 @@ import (
 	"reflect"
 	"strings"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/optimism-java/erigon"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/accounts/abi"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/event"
+	"github.com/optimism-java/erigon/accounts/abi"
+	"github.com/optimism-java/erigon/accounts/abi/bind"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/event"
 )
 
 // Reference imports to suppress errors if they are not otherwise used.

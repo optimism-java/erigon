@@ -12,9 +12,9 @@ import (
 	"strings"
 
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/graphql/graph/model"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/cmd/rpcdaemon/graphql/graph/model"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 // SendRawTransaction is the resolver for the sendRawTransaction field.

@@ -25,22 +25,22 @@ import (
 	"testing"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/core"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/core/vm"
-	"github.com/ledgerwatch/erigon/core/vm/evmtypes"
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/params"
-	"github.com/ledgerwatch/erigon/tests"
-	"github.com/ledgerwatch/erigon/turbo/stages/mock"
+	"github.com/optimism-java/erigon/core"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/core/vm"
+	"github.com/optimism-java/erigon/core/vm/evmtypes"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/params"
+	"github.com/optimism-java/erigon/tests"
+	"github.com/optimism-java/erigon/turbo/stages/mock"
 	"github.com/stretchr/testify/require"
 
 	"github.com/holiman/uint256"
 
 	// Force-load native and js packages, to trigger registration
-	"github.com/ledgerwatch/erigon/eth/tracers"
-	_ "github.com/ledgerwatch/erigon/eth/tracers/js"
-	_ "github.com/ledgerwatch/erigon/eth/tracers/native"
+	"github.com/optimism-java/erigon/eth/tracers"
+	_ "github.com/optimism-java/erigon/eth/tracers/js"
+	_ "github.com/optimism-java/erigon/eth/tracers/native"
 )
 
 func TestPrestateTracerCreate2(t *testing.T) {

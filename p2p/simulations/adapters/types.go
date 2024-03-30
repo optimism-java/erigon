@@ -24,12 +24,12 @@ import (
 	"net"
 	"strconv"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/node"
-	"github.com/ledgerwatch/erigon/p2p"
-	"github.com/ledgerwatch/erigon/p2p/enode"
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/node"
+	"github.com/optimism-java/erigon/p2p"
+	"github.com/optimism-java/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/p2p/enr"
+	"github.com/optimism-java/erigon/rpc"
 	"github.com/ledgerwatch/log/v3"
 
 	"github.com/gorilla/websocket"

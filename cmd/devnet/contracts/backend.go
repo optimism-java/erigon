@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"math/big"
 
-	ethereum "github.com/ledgerwatch/erigon"
+	ethereum "github.com/optimism-java/erigon"
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
-	"github.com/ledgerwatch/erigon/accounts/abi/bind"
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/rpc"
-	"github.com/ledgerwatch/erigon/turbo/adapter/ethapi"
+	"github.com/optimism-java/erigon/accounts/abi/bind"
+	"github.com/optimism-java/erigon/cmd/devnet/devnet"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/rpc"
+	"github.com/optimism-java/erigon/turbo/adapter/ethapi"
 )
 
 func NewBackend(node devnet.Node) bind.ContractBackend {

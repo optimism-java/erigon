@@ -1,11 +1,11 @@
 package handlers
 
 import (
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/fork"
-	"github.com/ledgerwatch/erigon/cl/sentinel/communication/ssz_snappy"
-	"github.com/ledgerwatch/erigon/cl/utils"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/fork"
+	"github.com/optimism-java/erigon/cl/sentinel/communication/ssz_snappy"
+	"github.com/optimism-java/erigon/cl/utils"
 	"github.com/libp2p/go-libp2p/core/network"
 )
 

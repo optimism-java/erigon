@@ -3,9 +3,9 @@ package attestation_producer_test
 import (
 	"testing"
 
-	"github.com/ledgerwatch/erigon/cl/antiquary/tests"
-	"github.com/ledgerwatch/erigon/cl/clparams"
-	"github.com/ledgerwatch/erigon/cl/validator/attestation_producer"
+	"github.com/optimism-java/erigon/cl/antiquary/tests"
+	"github.com/optimism-java/erigon/cl/clparams"
+	"github.com/optimism-java/erigon/cl/validator/attestation_producer"
 	"github.com/stretchr/testify/require"
 )
 

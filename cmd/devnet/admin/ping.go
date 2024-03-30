@@ -3,8 +3,8 @@ package admin
 import (
 	"context"
 
-	"github.com/ledgerwatch/erigon/cmd/devnet/devnet"
-	"github.com/ledgerwatch/erigon/cmd/devnet/scenarios"
+	"github.com/optimism-java/erigon/cmd/devnet/devnet"
+	"github.com/optimism-java/erigon/cmd/devnet/scenarios"
 )
 
 func init() {

@@ -31,8 +31,8 @@ import (
 	rlp2 "github.com/ledgerwatch/erigon-lib/rlp"
 	types2 "github.com/ledgerwatch/erigon-lib/types"
 
-	"github.com/ledgerwatch/erigon/common/u256"
-	"github.com/ledgerwatch/erigon/rlp"
+	"github.com/optimism-java/erigon/common/u256"
+	"github.com/optimism-java/erigon/rlp"
 )
 
 // AccessListTx is the data of EIP-2930 access list transactions.

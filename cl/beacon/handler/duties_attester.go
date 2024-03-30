@@ -7,9 +7,9 @@ import (
 	"strconv"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
-	"github.com/ledgerwatch/erigon/cl/beacon/beaconhttp"
-	state_accessors "github.com/ledgerwatch/erigon/cl/persistence/state"
-	"github.com/ledgerwatch/erigon/cl/phase1/core/state"
+	"github.com/optimism-java/erigon/cl/beacon/beaconhttp"
+	state_accessors "github.com/optimism-java/erigon/cl/persistence/state"
+	"github.com/optimism-java/erigon/cl/phase1/core/state"
 )
 
 type attesterDutyResponse struct {

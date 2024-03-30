@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/spectest"
+	"github.com/optimism-java/erigon/spectest"
 )
 
 type RewardsCore struct {

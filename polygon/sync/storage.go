@@ -4,7 +4,7 @@ import (
 	"context"
 	"sync"
 
-	"github.com/ledgerwatch/erigon/core/types"
+	"github.com/optimism-java/erigon/core/types"
 )
 
 //go:generate mockgen -destination=./storage_mock.go -package=sync . Storage

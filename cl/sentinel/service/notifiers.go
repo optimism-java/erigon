@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/ledgerwatch/erigon/cl/gossip"
+	"github.com/optimism-java/erigon/cl/gossip"
 )
 
 const (

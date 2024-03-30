@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/ledgerwatch/erigon/p2p/enr"
-	"github.com/ledgerwatch/erigon/p2p/netutil"
+	"github.com/optimism-java/erigon/p2p/enr"
+	"github.com/optimism-java/erigon/p2p/netutil"
 	"github.com/ledgerwatch/log/v3"
 )
 

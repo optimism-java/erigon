@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/cl/cltypes"
-	"github.com/ledgerwatch/erigon/cl/rpc"
-	"github.com/ledgerwatch/erigon/cl/sentinel/peers"
+	"github.com/optimism-java/erigon/cl/cltypes"
+	"github.com/optimism-java/erigon/cl/rpc"
+	"github.com/optimism-java/erigon/cl/sentinel/peers"
 	"github.com/tidwall/btree"
 )
 

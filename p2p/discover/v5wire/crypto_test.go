@@ -26,8 +26,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/crypto"
-	"github.com/ledgerwatch/erigon/p2p/enode"
+	"github.com/optimism-java/erigon/crypto"
+	"github.com/optimism-java/erigon/p2p/enode"
 	"github.com/ledgerwatch/log/v3"
 )
 

@@ -7,10 +7,10 @@ import (
 
 	"github.com/ledgerwatch/erigon-lib/chain"
 	"github.com/ledgerwatch/erigon-lib/kv"
-	"github.com/ledgerwatch/erigon/consensus"
-	"github.com/ledgerwatch/erigon/core/types"
-	"github.com/ledgerwatch/erigon/turbo/builder"
-	"github.com/ledgerwatch/erigon/turbo/services"
+	"github.com/optimism-java/erigon/consensus"
+	"github.com/optimism-java/erigon/core/types"
+	"github.com/optimism-java/erigon/turbo/builder"
+	"github.com/optimism-java/erigon/turbo/services"
 )
 
 type MiningFinishCfg struct {

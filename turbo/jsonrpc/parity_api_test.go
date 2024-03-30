@@ -5,15 +5,15 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ledgerwatch/erigon/rpc/rpccfg"
+	"github.com/optimism-java/erigon/rpc/rpccfg"
 	"github.com/stretchr/testify/assert"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/cmd/rpcdaemon/rpcdaemontest"
-	"github.com/ledgerwatch/erigon/common"
-	"github.com/ledgerwatch/erigon/rpc"
+	"github.com/optimism-java/erigon/cmd/rpcdaemon/rpcdaemontest"
+	"github.com/optimism-java/erigon/common"
+	"github.com/optimism-java/erigon/rpc"
 )
 
 var latestBlock = rpc.BlockNumberOrHashWithNumber(rpc.LatestBlockNumber)

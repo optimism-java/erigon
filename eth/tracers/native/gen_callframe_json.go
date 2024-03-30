@@ -10,7 +10,7 @@ import (
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutility"
 
-	"github.com/ledgerwatch/erigon/core/vm"
+	"github.com/optimism-java/erigon/core/vm"
 )
 
 var _ = (*callFrameMarshaling)(nil)
