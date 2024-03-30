@@ -30,48 +30,15 @@ func int256ToVerkleFormat(x *uint256.Int, buffer []byte) {
 
 func flushVerkleNode(db kv.RwTx, node verkle.VerkleNode, logInterval *time.Ticker, key []byte, logger log.Logger) error {
 	var err error
-	totalInserted := 0
-	node.(*verkle.InternalNode).Flush(func(node verkle.VerkleNode) {
-		if err != nil {
-			return
-		}
-
-		err = rawdb.WriteVerkleNode(db, node)
-		if err != nil {
-			return
-		}
-		totalInserted++
-		select {
-		case <-logInterval.C:
-			logger.Info("Flushing Verkle nodes", "inserted", totalInserted, "key", common.Bytes2Hex(key))
-		default:
-		}
-	})
+	//totalInserted := 0
+	node.(*verkle.InternalNode).Flush(nil)
 	return err
 }
 
 func collectVerkleNode(collector *etl.Collector, node verkle.VerkleNode, logInterval *time.Ticker, key []byte, logger log.Logger) error {
 	var err error
-	totalInserted := 0
-	node.(*verkle.InternalNode).Flush(func(node verkle.VerkleNode) {
-		if err != nil {
-			return
-		}
-		var encodedNode []byte
-
-		rootHash := node.Commitment().Bytes()
-		encodedNode, err = node.Serialize()
-		if err != nil {
-			return
-		}
-		err = collector.Collect(rootHash[:], encodedNode)
-		totalInserted++
-		select {
-		case <-logInterval.C:
-			logger.Info("Flushing Verkle nodes", "inserted", totalInserted, "key", common.Bytes2Hex(key))
-		default:
-		}
-	})
+	//totalInserted := 0
+	node.(*verkle.InternalNode).Flush(nil)
 	return err
 }
 
@@ -198,21 +165,7 @@ func (v *VerkleTreeWriter) CommitVerkleTreeFromScratch() (libcommon.Hash, error)
 		if len(val) == 0 {
 			return next(k, nil, nil)
 		}
-		if err := root.InsertOrdered(libcommon.CopyBytes(k), libcommon.CopyBytes(val), func(node verkle.VerkleNode) {
-			rootHash := node.Commitment().Bytes()
-			encodedNode, err := node.Serialize()
-			if err != nil {
-				panic(err)
-			}
-			if err := verkleCollector.Collect(rootHash[:], encodedNode); err != nil {
-				panic(err)
-			}
-			select {
-			case <-logInterval.C:
-				v.logger.Info("[Verkle] Assembling Verkle Tree", "key", common.Bytes2Hex(k))
-			default:
-			}
-		}); err != nil {
+		if err := root.Insert(libcommon.CopyBytes(k), libcommon.CopyBytes(val), nil); err != nil {
 			return err
 		}
 		return next(k, nil, nil)

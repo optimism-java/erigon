@@ -297,7 +297,8 @@ func (f *ForkChoiceStore) OnBlobSidecar(blobSidecar *cltypes.BlobSidecar, test b
 		return fmt.Errorf("commitment inclusion proof failed")
 	}
 
-	if err := kzgCtx.VerifyBlobKZGProof(gokzg4844.Blob(blobSidecar.Blob), gokzg4844.KZGCommitment(blobSidecar.KzgCommitment), gokzg4844.KZGProof(blobSidecar.KzgProof)); err != nil {
+	b := gokzg4844.Blob(blobSidecar.Blob)
+	if err := kzgCtx.VerifyBlobKZGProof(&b, gokzg4844.KZGCommitment(blobSidecar.KzgCommitment), gokzg4844.KZGProof(blobSidecar.KzgProof)); err != nil {
 		return fmt.Errorf("blob KZG proof verification failed: %v", err)
 	}
 

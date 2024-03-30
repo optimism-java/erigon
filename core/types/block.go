@@ -18,7 +18,7 @@
 package types
 
 import (
-	"bytes"
+	//"bytes"
 	"encoding/binary"
 	"errors"
 	"fmt"
@@ -27,7 +27,7 @@ import (
 	"reflect"
 	"sync/atomic"
 
-	"github.com/gballet/go-verkle"
+	//"github.com/gballet/go-verkle"
 
 	libcommon "github.com/ledgerwatch/erigon-lib/common"
 	"github.com/ledgerwatch/erigon-lib/common/hexutil"
@@ -106,9 +106,9 @@ type Header struct {
 	ParentBeaconBlockRoot *libcommon.Hash `json:"parentBeaconBlockRoot"` // EIP-4788
 
 	// The verkle proof is ignored in legacy headers
-	Verkle        bool
-	VerkleProof   []byte
-	VerkleKeyVals []verkle.KeyValuePair
+	//Verkle        bool
+	//VerkleProof   []byte
+	//VerkleKeyVals []verkle.KeyValuePair
 }
 
 func (h *Header) EncodingSize() int {
@@ -161,15 +161,15 @@ func (h *Header) EncodingSize() int {
 		encodingSize += 33
 	}
 
-	if h.Verkle {
-		// Encoding of Verkle Proof
-		encodingSize += rlp2.StringLen(h.VerkleProof)
-		var tmpBuffer bytes.Buffer
-		if err := rlp.Encode(&tmpBuffer, h.VerkleKeyVals); err != nil {
-			panic(err)
-		}
-		encodingSize += rlp2.ListPrefixLen(tmpBuffer.Len()) + tmpBuffer.Len()
-	}
+	//if h.Verkle {
+	//	// Encoding of Verkle Proof
+	//	encodingSize += rlp2.StringLen(h.VerkleProof)
+	//	var tmpBuffer bytes.Buffer
+	//	if err := rlp.Encode(&tmpBuffer, h.VerkleKeyVals); err != nil {
+	//		panic(err)
+	//	}
+	//	encodingSize += rlp2.ListPrefixLen(tmpBuffer.Len()) + tmpBuffer.Len()
+	//}
 
 	return encodingSize
 }
@@ -310,15 +310,15 @@ func (h *Header) EncodeRLP(w io.Writer) error {
 		}
 	}
 
-	if h.Verkle {
-		if err := rlp.EncodeString(h.VerkleProof, w, b[:]); err != nil {
-			return err
-		}
-
-		if err := rlp.Encode(w, h.VerkleKeyVals); err != nil {
-			return nil
-		}
-	}
+	//if h.Verkle {
+	//	if err := rlp.EncodeString(h.VerkleProof, w, b[:]); err != nil {
+	//		return err
+	//	}
+	//
+	//	if err := rlp.Encode(w, h.VerkleKeyVals); err != nil {
+	//		return nil
+	//	}
+	//}
 
 	return nil
 }
@@ -498,16 +498,16 @@ func (h *Header) DecodeRLP(s *rlp.Stream) error {
 	h.ParentBeaconBlockRoot = new(libcommon.Hash)
 	h.ParentBeaconBlockRoot.SetBytes(b)
 
-	if h.Verkle {
-		if h.VerkleProof, err = s.Bytes(); err != nil {
-			return fmt.Errorf("read VerkleProof: %w", err)
-		}
-		rawKv, err := s.Raw()
-		if err != nil {
-			return err
-		}
-		rlp.DecodeBytes(rawKv, h.VerkleKeyVals)
-	}
+	//if h.Verkle {
+	//	if h.VerkleProof, err = s.Bytes(); err != nil {
+	//		return fmt.Errorf("read VerkleProof: %w", err)
+	//	}
+	//	rawKv, err := s.Raw()
+	//	if err != nil {
+	//		return err
+	//	}
+	//	rlp.DecodeBytes(rawKv, h.VerkleKeyVals)
+	//}
 
 	if err := s.ListEnd(); err != nil {
 		return fmt.Errorf("close header struct: %w", err)
